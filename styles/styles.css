@@ -1,0 +1,30 @@
+body {
+    background-image: radial-gradient(circle, 
+    #8333a0, #8522c2, #7623cb, #6226d5, #442adf);
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: blanchedalmond;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4 {
+    text-align: center;
+}
+p {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
