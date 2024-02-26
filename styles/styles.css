@@ -9,7 +9,7 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
 }
 h2 {
-    color: blanchedalmond;
+    color: yellowgreen;
     text-align: center;
     text-decoration: underline;
     font-family: 'Times New Roman', Times, serif;
@@ -21,13 +21,19 @@ h3 {
 h4 {
     text-align: center;
 }
+<<<<<<< HEAD
 div {
     color: blanchedalmond;
+=======
+p {
+    color: yellowgreen;
+>>>>>>> cdb7b3cc4fb3bcf7b5d17594515d9a20c665b079
     text-align: center;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     
 }
+<<<<<<< HEAD
 .text-block1 {
     background-color: grey;
     padding: 20px;
@@ -49,4 +55,9 @@ div {
 }
 .text-block2::first-letter {
     font-size: 40px;
+=======
+p::first-letter {
+    font-size: 30px
+    
+>>>>>>> cdb7b3cc4fb3bcf7b5d17594515d9a20c665b079
 }
