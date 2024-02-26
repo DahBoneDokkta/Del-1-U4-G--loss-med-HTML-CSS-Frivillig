@@ -2,11 +2,15 @@ body {
     background-image: radial-gradient(circle, 
     #8333a0, #8522c2, #7623cb, #6226d5, #442adf);
 }
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1526779259212-939e64788e3c?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
 h1 {
     color: black;
     text-align: center;
     font-size: 75px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
     color: blanchedalmond;
@@ -26,27 +30,47 @@ div {
     text-align: center;
     font-size: larger;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
     
 }
+
 .text-block1 {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.5);
     padding: 20px;
     border-radius: 10px;
     border: 2px solid white;
     width: 650px;
+    margin-bottom: 20px;
+    /* margin: 25px 20px 25px 25px */
     margin: 0 auto;
 }
 .text-block1::first-letter {
-    font-size: 40px;
+    font-size: 30px;
 }
 .text-block2 {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.5);
     padding: 20px;
     border-radius: 10px;
     border: 2px solid white;
     width: 650px;
+    /* margin: 25px 20px 25px 25px */
     margin: 0 auto;
 }
 .text-block2::first-letter {
-    font-size: 40px;
+    font-size: 30px;
+}
+
+.contact-info ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center-align the list items */
+}
+
+.contact-info ul li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add space between list items */
+}
+
+.contact-info ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
 }
